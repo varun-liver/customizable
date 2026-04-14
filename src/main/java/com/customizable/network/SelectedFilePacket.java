@@ -29,6 +29,7 @@ public class SelectedFilePacket {
         context.enqueueWork(() -> {
             ServerPlayer player = context.getSender();
             if (player != null) {
+
                 ItemStack stack = player.getItemInHand(InteractionHand.MAIN_HAND);
                 // Simple check for the custom disc, we could check both hands
                 if (!(stack.getItem() instanceof com.customizable.item.CustomMusicDiscItem)) {
@@ -38,8 +39,11 @@ public class SelectedFilePacket {
                 if (stack.getItem() instanceof com.customizable.item.CustomMusicDiscItem) {
                     CompoundTag tag = stack.getOrCreateTag();
                     tag.putString("SelectedFile", this.filePath);
+
                     // Update display name for feedback?
                     stack.setHoverName(net.minecraft.network.chat.Component.literal("Music Disc: " + getFileName(this.filePath)));
+                } else {
+
                 }
             }
         });

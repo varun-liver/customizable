@@ -47,10 +47,16 @@ public class customizable {
 
     public static final DeferredRegister<net.minecraft.sounds.SoundEvent> SOUND_EVENTS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, MODID);
 
+    public static final DeferredRegister<net.minecraft.world.level.block.entity.BlockEntityType<?>> BLOCK_ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, MODID);
+
     public static final RegistryObject<net.minecraft.sounds.SoundEvent> DUMMY_MUSIC = SOUND_EVENTS.register("dummy_music", () -> net.minecraft.sounds.SoundEvent.createVariableRangeEvent(new ResourceLocation(MODID, "dummy_music")));
 
     // Creates a new Block with the id "customizable:example_block", combining the namespace and path
     public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
+
+    public static final RegistryObject<Block> CUSTOM_PAINTING_BLOCK = BLOCKS.register("custom_painting_block", () -> new com.customizable.CustomPaintingBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOL).strength(1.0f).noOcclusion()));
+
+    public static final RegistryObject<net.minecraft.world.level.block.entity.BlockEntityType<com.customizable.CustomPaintingBlockEntity>> CUSTOM_PAINTING_BE = BLOCK_ENTITY_TYPES.register("custom_painting_be", () -> net.minecraft.world.level.block.entity.BlockEntityType.Builder.of(com.customizable.CustomPaintingBlockEntity::new, CUSTOM_PAINTING_BLOCK.get()).build(null));
     // Creates a new BlockItem with the id "customizable:example_block", combining the namespace and path
     public static final RegistryObject<Item> EXAMPLE_BLOCK_ITEM = ITEMS.register("example_block", () -> new BlockItem(EXAMPLE_BLOCK.get(), new Item.Properties()));
 
@@ -59,10 +65,13 @@ public class customizable {
 
     public static final RegistryObject<Item> CUSTOM_MUSIC_DISC = ITEMS.register("custom_music_disc", () -> new com.customizable.item.CustomMusicDiscItem(new Item.Properties().stacksTo(1)));
 
+    public static final RegistryObject<Item> CUSTOM_PAINTING = ITEMS.register("custom_painting", () -> new com.customizable.item.CustomPaintingItem(new Item.Properties().stacksTo(1)));
+
     // Creates a creative tab with the id "customizable:example_tab" for the example item, that is placed after the combat tab
     public static final RegistryObject<CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder().withTabsBefore(CreativeModeTabs.COMBAT).icon(() -> EXAMPLE_ITEM.get().getDefaultInstance()).displayItems((parameters, output) -> {
         output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
         output.accept(CUSTOM_MUSIC_DISC.get());
+        output.accept(CUSTOM_PAINTING.get());
     }).build());
 
     public customizable() {
@@ -79,6 +88,8 @@ public class customizable {
         CREATIVE_MODE_TABS.register(modEventBus);
         // Register sound events
         SOUND_EVENTS.register(modEventBus);
+        // Register block entity types
+        BLOCK_ENTITY_TYPES.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -125,6 +136,11 @@ public class customizable {
             // Some client setup code
             LOGGER.info("HELLO FROM CLIENT SETUP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+            event.enqueueWork(() -> {
+                try {
+                    net.minecraft.client.renderer.blockentity.BlockEntityRenderers.register(CUSTOM_PAINTING_BE.get(), com.customizable.client.CustomPaintingRenderer::new);
+                } catch (Exception ignored) {}
+            });
         }
     }
 }

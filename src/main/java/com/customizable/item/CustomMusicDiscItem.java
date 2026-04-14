@@ -6,15 +6,67 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.RecordItem;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.JukeboxBlock;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.JukeboxBlockEntity;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.item.context.UseOnContext;
 import com.customizable.customizable;
 import com.customizable.network.ModMessages;
 import com.customizable.network.SelectedFilePacket;
-import javax.swing.*;
-import java.io.File;
 
 public class CustomMusicDiscItem extends RecordItem {
     public CustomMusicDiscItem(Properties properties) {
-        super(15, customizable.DUMMY_MUSIC, properties, 1);
+        super(15, customizable.DUMMY_MUSIC.get(), properties, 72000);
+    }
+
+    @Override
+    public InteractionResult useOn(UseOnContext context) {
+        Level level = context.getLevel();
+        BlockPos pos = context.getClickedPos();
+        BlockState state = level.getBlockState(pos);
+        
+        if (state.is(Blocks.JUKEBOX) && !state.getValue(JukeboxBlock.HAS_RECORD)) {
+            ItemStack stack = context.getItemInHand();
+            if (!level.isClientSide) {
+                BlockEntity be = level.getBlockEntity(pos);
+                if (be instanceof JukeboxBlockEntity jukebox) {
+                    // Move the item into the jukebox slot and preserve its NBT in the server-side storage map
+                    net.minecraft.world.item.ItemStack moved = stack.split(1);
+                    jukebox.setItem(0, moved);
+                    try {
+                        if (!moved.isEmpty()) {
+                            com.customizable.JukeboxRecordStorage.store(pos, moved);
+                        }
+                    } catch (Exception e) {
+
+                    }
+                    // Mark tile changed and notify clients so the client can see the item/NBT in the jukebox slot
+                    jukebox.setChanged();
+                    var newState = state.setValue(JukeboxBlock.HAS_RECORD, true);
+                    level.setBlock(pos, newState, 3);
+                    level.sendBlockUpdated(pos, state, newState, 3);
+                    level.levelEvent(null, 1010, pos, 0);
+                    // Broadcast the jukebox item to clients so they immediately get the NBT and can start playback
+                    try {
+                        com.customizable.network.ModMessages.sendToAll(new com.customizable.network.DiscInfoResponsePacket(pos, moved));
+                    } catch (Exception e) {
+
+                    }
+                }
+            } else {
+                if (stack.hasTag() && stack.getTag().contains("SelectedFile")) {
+                    String path = stack.getTag().getString("SelectedFile");
+
+                    com.customizable.client.MP3MusicManager.play(pos, path);
+                }
+            }
+            return InteractionResult.sidedSuccess(level.isClientSide);
+        }
+        return InteractionResult.PASS;
     }
 
     @Override
@@ -30,21 +82,15 @@ public class CustomMusicDiscItem extends RecordItem {
     }
 
     private void openFilePicker() {
-        // Run on AWT thread to avoid blocking MC main thread
         new Thread(() -> {
-            try {
-                // Ensure the look and feel is set or it might crash/look weird
-                UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-            } catch (Exception ignored) {}
+            org.lwjgl.PointerBuffer filters = org.lwjgl.system.MemoryUtil.memAllocPointer(1);
+            filters.put(org.lwjgl.system.MemoryUtil.memUTF8("*.mp3"));
+            filters.flip();
+            String result = org.lwjgl.util.tinyfd.TinyFileDialogs.tinyfd_openFileDialog("Select a .mp3 file", "", filters, "MP3 Files", false);
+            org.lwjgl.system.MemoryUtil.memFree(filters);
 
-            JFileChooser chooser = new JFileChooser();
-            chooser.setDialogTitle("Select a .mp3 file");
-            chooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
-            chooser.setFileFilter(new javax.swing.filechooser.FileNameExtensionFilter("MP3 Files", "mp3"));
-            
-            int returnVal = chooser.showOpenDialog(null);
-            if (returnVal == JFileChooser.APPROVE_OPTION) {
-                File file = chooser.getSelectedFile();
+            if (result != null) {
+                java.io.File file = new java.io.File(result);
                 if (file.exists()) {
                     ModMessages.sendToServer(new SelectedFilePacket(file.getAbsolutePath()));
                 }

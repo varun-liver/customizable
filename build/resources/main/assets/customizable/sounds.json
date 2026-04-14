@@ -3,8 +3,9 @@
     "category": "record",
     "sounds": [
       {
-        "name": "customizable:silent",
-        "stream": true
+        "name": "minecraft:block.note_block.bell",
+        "stream": true,
+        "volume": 0.5
       }
     ]
   }

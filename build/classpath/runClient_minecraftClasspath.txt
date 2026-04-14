@@ -1,3 +1,4 @@
+C:\Users\sreng\.gradle\caches\modules-2\files-2.1\javazoom\jlayer\1.0.1\2bfef7a5a4c9af2184ff74b460b6d7d24349b98a\jlayer-1.0.1.jar
 C:\Users\sreng\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.4.20_mapped_official_1.20.1\forge-1.20.1-47.4.20_mapped_official_1.20.1.jar
 C:\Users\sreng\.gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar
 C:\Users\sreng\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.4.20\4dcdfb740aff35b40a3471708ca8a5f1e22a9504\fmlearlydisplay-1.20.1-47.4.20.jar
