@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ROY",
+    "GBP",
+    "WAN"
+  ],
+  "key": {
+    "R": { "item": "minecraft:red_dye" },
+    "O": { "item": "minecraft:orange_dye" },
+    "Y": {"item": "minecraft:yellow_dye"},
+    "G": {"item": "minecraft:green_dye"},
+    "B": {"item": "minecraft:blue_dye"},
+    "P": {"item": "minecraft:purple_dye"},
+    "W": {"item": "minecraft:white_dye"},
+    "A": {"item": "minecraft:black_dye"},
+    "N": {"item": "minecraft:brown_dye"}
+  },
+  "result": {
+    "item": "customizable:custom_dye",
+    "count": 1
+  }
+}

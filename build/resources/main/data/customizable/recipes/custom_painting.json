@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SRS",
+    "SSS"
+  ],
+  "key": {
+    "R": { "item": "minecraft:redstone" },
+    "S": {"item": "minecraft:stick"}
+  },
+  "result": {
+    "item": "customizable:custom_painting",
+    "count": 1
+  }
+}

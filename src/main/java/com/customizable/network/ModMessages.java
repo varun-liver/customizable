@@ -25,40 +25,16 @@ public class ModMessages {
 
         INSTANCE = net;
 
-        net.messageBuilder(SelectedFilePacket.class, id())
-                .encoder(SelectedFilePacket::encode)
-                .decoder(SelectedFilePacket::new)
-                .consumerMainThread(SelectedFilePacket::handle)
-                .add();
-
-        net.messageBuilder(EjectDiscPacket.class, id())
-                .encoder(EjectDiscPacket::encode)
-                .decoder(EjectDiscPacket::new)
-                .consumerMainThread(EjectDiscPacket::handle)
-                .add();
-
-        net.messageBuilder(RequestDiscInfoPacket.class, id())
-                .encoder(RequestDiscInfoPacket::encode)
-                .decoder(RequestDiscInfoPacket::new)
-                .consumerMainThread(RequestDiscInfoPacket::handle)
-                .add();
-
-        net.messageBuilder(DiscInfoResponsePacket.class, id())
-                .encoder(DiscInfoResponsePacket::encode)
-                .decoder(DiscInfoResponsePacket::new)
-                .consumerMainThread(DiscInfoResponsePacket::handle)
-                .add();
-
-        net.messageBuilder(StopPlaybackPacket.class, id())
-                .encoder(StopPlaybackPacket::encode)
-                .decoder(StopPlaybackPacket::new)
-                .consumerMainThread(StopPlaybackPacket::handle)
-                .add();
-
         net.messageBuilder(SelectedPaintingPacket.class, id())
                 .encoder(SelectedPaintingPacket::encode)
                 .decoder(SelectedPaintingPacket::new)
                 .consumerMainThread(SelectedPaintingPacket::handle)
+                .add();
+
+        net.messageBuilder(UpdateDyeColorPacket.class, id())
+                .encoder(UpdateDyeColorPacket::encode)
+                .decoder(UpdateDyeColorPacket::new)
+                .consumerMainThread(UpdateDyeColorPacket::handle)
                 .add();
     }
 

@@ -1,5 +1,10 @@
 {
   "item.customizable.custom_music_disc": "Custom Music Disc",
   "item.customizable.custom_music_disc.desc": "Shift-Right Click to select an MP3 file",
+  "item.customizable.custom_painting": "Custom Painting",
+  "item.customizable.custom_dye": "Universal Dye",
+  "item.customizable.custom_wool_block": "Painted Wool",
+  "block.customizable.custom_wool_block": "Painted Wool",
+  "block.customizable.custom_painting_block": "Custom Painting",
   "subtitles.customizable.dummy_music": "Music Disc plays"
 }

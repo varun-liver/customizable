@@ -1,6 +1,6 @@
 {
   "variants": {
-    "has_record=false": { "model": "minecraft:block/oak_planks" },
+    "has_record=false": { "model": "customizable:block/custom_painting_idle" },
     "has_record=true":  { "model": "customizable:block/hidden" }
   }
 }
