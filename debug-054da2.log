@@ -1,0 +1,893 @@
+{"sessionId":"054da2","timestamp":1776223060608,"hypothesisId":"D8","location":"ClientEvents.onClientLogout","message":"logout event","data":{}}
+{"sessionId":"054da2","timestamp":1776223060614,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776223078330,"hypothesisId":"P4","location":"CustomPaintingRenderer.render","message":"skip !HAS_PAINTING","data":{}}
+{"sessionId":"054da2","timestamp":1776223119595,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":false,"hasRecord":false,"client":true}}
+{"sessionId":"054da2","timestamp":1776223119598,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"pass","data":{}}
+{"sessionId":"054da2","timestamp":1776223119601,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":false,"hasRecord":false,"client":false}}
+{"sessionId":"054da2","timestamp":1776223119601,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"pass","data":{}}
+{"sessionId":"054da2","timestamp":1776223123640,"hypothesisId":"D1","location":"SelectedFilePacket.handle","message":"server file pick result","data":{"pathTail":"Tears (MC Disk).mp3","pathLen":44,"playerNull":false,"mainHandDisc":true,"effectiveOffHandDisc":true,"nbtApplied":true}}
+{"sessionId":"054da2","timestamp":1776223126044,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":true}}
+{"sessionId":"054da2","timestamp":1776223126046,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223126048,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-364, 123, -1326","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776223126082,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776223126085,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":false}}
+{"sessionId":"054da2","timestamp":1776223126087,"hypothesisId":"D8","location":"MP3MusicManager.tick","message":"tick stop condition","data":{"pos":"-364, 123, -1326","isJukebox":true,"hasRecordFlag":false,"beHasRecord":false,"clientStored":false}}
+{"sessionId":"054da2","timestamp":1776223126089,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-364, 123, -1326","hadPlayer":true}}
+{"sessionId":"054da2","timestamp":1776223126091,"hypothesisId":"D5","location":"CustomMusicDiscItem.useOn","message":"server after jukebox insert","data":{"hasSelectedFile":true,"stackEmpty":false,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223126106,"hypothesisId":"D9","location":"ClientEvents.onPlaySound","message":"dummy sound intercepted","data":{"x":-363.5,"y":123.5,"z":-1325.5}}
+{"sessionId":"054da2","timestamp":1776223126109,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":false,"hasSelectedFile":true,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223126112,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223126113,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-364, 123, -1326","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776223126117,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776223126524,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"background thread exception","data":{"pathTail":"Tears (MC Disk).mp3","pathLen":44,"ex":"BitstreamException","msg":"Bitstream errorcode 102"}}
+{"sessionId":"054da2","timestamp":1776223126547,"hypothesisId":"D6","location":"ClientEvents.onClientTick","message":"tick auto play","data":{"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223126549,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223126550,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223126599,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223126599,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223126647,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223126649,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223126697,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223126698,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223126749,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223126750,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223126796,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223126798,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223126848,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223126849,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223126895,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223126896,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223126946,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223126948,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223126998,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127000,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127043,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127044,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127095,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127095,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127144,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127145,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127195,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127197,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127248,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127250,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127298,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127299,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127345,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127346,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127400,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127403,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127443,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127445,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127500,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127501,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127550,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127552,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127595,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127596,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127644,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127647,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127695,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127696,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127747,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127748,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127793,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127794,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127846,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127848,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127899,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127900,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127945,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223127946,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223127999,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128001,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128054,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128055,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128102,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128104,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128149,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128150,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128202,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128203,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128245,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128246,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128288,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128289,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128347,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128349,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128400,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128402,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128444,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128445,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128494,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128496,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128550,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128550,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128605,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128608,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128655,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128657,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128695,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128696,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128744,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128746,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128814,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128815,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128846,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128847,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223128900,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223128901,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223132422,"hypothesisId":"P4","location":"CustomPaintingRenderer.render","message":"skip !HAS_PAINTING","data":{}}
+{"sessionId":"054da2","timestamp":1776223134545,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-364, 123, -1326","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223134545,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-364, 123, -1326","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776223134548,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776223143708,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":true,"hasSelectedFile":false}}
+{"sessionId":"054da2","timestamp":1776223143708,"hypothesisId":"D8","location":"StopPlaybackPacket.handle","message":"received stop packet","data":{"pos":"-364, 123, -1326"}}
+{"sessionId":"054da2","timestamp":1776223143710,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":1}}
+{"sessionId":"054da2","timestamp":1776223159889,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":true}}
+{"sessionId":"054da2","timestamp":1776223159890,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-382, 124, -1305","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223159891,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-382, 124, -1305","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776223159892,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":false}}
+{"sessionId":"054da2","timestamp":1776223159892,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776223159893,"hypothesisId":"D5","location":"CustomMusicDiscItem.useOn","message":"server after jukebox insert","data":{"hasSelectedFile":true,"stackEmpty":false,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223159893,"hypothesisId":"D8","location":"MP3MusicManager.tick","message":"tick stop condition","data":{"pos":"-382, 124, -1305","isJukebox":true,"hasRecordFlag":false,"beHasRecord":false,"clientStored":false}}
+{"sessionId":"054da2","timestamp":1776223159895,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-382, 124, -1305","hadPlayer":true}}
+{"sessionId":"054da2","timestamp":1776223159906,"hypothesisId":"D9","location":"ClientEvents.onPlaySound","message":"dummy sound intercepted","data":{"x":-381.5,"y":124.5,"z":-1304.5}}
+{"sessionId":"054da2","timestamp":1776223159907,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":false,"hasSelectedFile":true,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223159908,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-382, 124, -1305","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223159908,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-382, 124, -1305","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776223159909,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776223162001,"hypothesisId":"D8","location":"MP3MusicManager.tick","message":"tick stop condition","data":{"pos":"-382, 124, -1305","isJukebox":false,"hasRecordFlag":false,"beHasRecord":false,"clientStored":true}}
+{"sessionId":"054da2","timestamp":1776223162003,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-382, 124, -1305","hadPlayer":true}}
+{"sessionId":"054da2","timestamp":1776223162081,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":true,"hasSelectedFile":false}}
+{"sessionId":"054da2","timestamp":1776223162083,"hypothesisId":"D8","location":"StopPlaybackPacket.handle","message":"received stop packet","data":{"pos":"-382, 124, -1305"}}
+{"sessionId":"054da2","timestamp":1776223162085,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776223170827,"hypothesisId":"D8","location":"ClientEvents.onClientLogout","message":"logout event","data":{}}
+{"sessionId":"054da2","timestamp":1776223170828,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776223173426,"hypothesisId":"D8","location":"ClientEvents.onClientTick","message":"world unload detected","data":{}}
+{"sessionId":"054da2","timestamp":1776223173426,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776223176473,"hypothesisId":"D8","location":"ClientEvents.onClientLogout","message":"logout event","data":{}}
+{"sessionId":"054da2","timestamp":1776223176473,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776223186506,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":true}}
+{"sessionId":"054da2","timestamp":1776223186534,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-359, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223186535,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-359, 123, -1324","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776223186537,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":false}}
+{"sessionId":"054da2","timestamp":1776223186537,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776223186538,"hypothesisId":"D5","location":"CustomMusicDiscItem.useOn","message":"server after jukebox insert","data":{"hasSelectedFile":true,"stackEmpty":false,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223186539,"hypothesisId":"D8","location":"MP3MusicManager.tick","message":"tick stop condition","data":{"pos":"-359, 123, -1324","isJukebox":true,"hasRecordFlag":false,"beHasRecord":false,"clientStored":false}}
+{"sessionId":"054da2","timestamp":1776223186541,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-359, 123, -1324","hadPlayer":true}}
+{"sessionId":"054da2","timestamp":1776223186580,"hypothesisId":"D9","location":"ClientEvents.onPlaySound","message":"dummy sound intercepted","data":{"x":-358.5,"y":123.5,"z":-1323.5}}
+{"sessionId":"054da2","timestamp":1776223186581,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":false,"hasSelectedFile":true,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223186581,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-359, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223186582,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-359, 123, -1324","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776223186585,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776223189356,"hypothesisId":"D8","location":"MP3MusicManager.tick","message":"tick stop condition","data":{"pos":"-359, 123, -1324","isJukebox":false,"hasRecordFlag":false,"beHasRecord":false,"clientStored":true}}
+{"sessionId":"054da2","timestamp":1776223189356,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-359, 123, -1324","hadPlayer":true}}
+{"sessionId":"054da2","timestamp":1776223189410,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":true,"hasSelectedFile":false}}
+{"sessionId":"054da2","timestamp":1776223189411,"hypothesisId":"D8","location":"StopPlaybackPacket.handle","message":"received stop packet","data":{"pos":"-359, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776223189413,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776223193046,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":false,"hasRecord":false,"client":true}}
+{"sessionId":"054da2","timestamp":1776223193049,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"pass","data":{}}
+{"sessionId":"054da2","timestamp":1776223193052,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":false,"hasRecord":false,"client":false}}
+{"sessionId":"054da2","timestamp":1776223193054,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"pass","data":{}}
+{"sessionId":"054da2","timestamp":1776223198301,"hypothesisId":"D1","location":"SelectedFilePacket.handle","message":"server file pick result","data":{"pathTail":"Generic_wind_burst2_JE1_BE1.ogg.mp3","pathLen":60,"playerNull":false,"mainHandDisc":true,"effectiveOffHandDisc":true,"nbtApplied":true}}
+{"sessionId":"054da2","timestamp":1776223203047,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":true}}
+{"sessionId":"054da2","timestamp":1776223203050,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Generic_wind_burst2_JE1_BE1.ogg.mp3","pathLen":60}}
+{"sessionId":"054da2","timestamp":1776223203052,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-358, 123, -1324","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776223203059,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":35}}
+{"sessionId":"054da2","timestamp":1776223203061,"hypothesisId":"D8","location":"MP3MusicManager.tick","message":"tick stop condition","data":{"pos":"-358, 123, -1324","isJukebox":true,"hasRecordFlag":false,"beHasRecord":false,"clientStored":false}}
+{"sessionId":"054da2","timestamp":1776223203064,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-358, 123, -1324","hadPlayer":true}}
+{"sessionId":"054da2","timestamp":1776223203065,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":false}}
+{"sessionId":"054da2","timestamp":1776223203067,"hypothesisId":"D5","location":"CustomMusicDiscItem.useOn","message":"server after jukebox insert","data":{"hasSelectedFile":true,"stackEmpty":false,"pathTail":"Generic_wind_burst2_JE1_BE1.ogg.mp3","pathLen":60}}
+{"sessionId":"054da2","timestamp":1776223203100,"hypothesisId":"D9","location":"ClientEvents.onPlaySound","message":"dummy sound intercepted","data":{"x":-357.5,"y":123.5,"z":-1323.5}}
+{"sessionId":"054da2","timestamp":1776223203102,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":false,"hasSelectedFile":true,"pathTail":"Generic_wind_burst2_JE1_BE1.ogg.mp3","pathLen":60}}
+{"sessionId":"054da2","timestamp":1776223203104,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Generic_wind_burst2_JE1_BE1.ogg.mp3","pathLen":60}}
+{"sessionId":"054da2","timestamp":1776223203105,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-358, 123, -1324","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776223203109,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":35}}
+{"sessionId":"054da2","timestamp":1776223203844,"hypothesisId":"D8","location":"MP3MusicManager.tick","message":"tick stop condition","data":{"pos":"-358, 123, -1324","isJukebox":false,"hasRecordFlag":false,"beHasRecord":false,"clientStored":true}}
+{"sessionId":"054da2","timestamp":1776223203845,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-358, 123, -1324","hadPlayer":true}}
+{"sessionId":"054da2","timestamp":1776223203902,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":true,"hasSelectedFile":false}}
+{"sessionId":"054da2","timestamp":1776223203903,"hypothesisId":"D8","location":"StopPlaybackPacket.handle","message":"received stop packet","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776223203903,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776223316932,"hypothesisId":"D8","location":"ClientEvents.onClientLogout","message":"logout event","data":{}}
+{"sessionId":"054da2","timestamp":1776223316939,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776223330125,"hypothesisId":"P4","location":"CustomPaintingRenderer.render","message":"skip !HAS_PAINTING","data":{}}
+{"sessionId":"054da2","timestamp":1776223339945,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":true}}
+{"sessionId":"054da2","timestamp":1776223339947,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223339949,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-341, 122, -1321","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776223339954,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":false}}
+{"sessionId":"054da2","timestamp":1776223339959,"hypothesisId":"D5","location":"CustomMusicDiscItem.useOn","message":"server after jukebox insert","data":{"hasSelectedFile":true,"stackEmpty":false,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223339959,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776223339977,"hypothesisId":"D8","location":"MP3MusicManager.tick","message":"tick stop condition","data":{"pos":"-341, 122, -1321","isJukebox":true,"hasRecordFlag":false,"beHasRecord":false,"clientStored":false}}
+{"sessionId":"054da2","timestamp":1776223339979,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-341, 122, -1321","hadPlayer":true}}
+{"sessionId":"054da2","timestamp":1776223340007,"hypothesisId":"D9","location":"ClientEvents.onPlaySound","message":"dummy sound intercepted","data":{"x":-340.5,"y":122.5,"z":-1320.5}}
+{"sessionId":"054da2","timestamp":1776223340038,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":false,"hasSelectedFile":true,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340041,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340042,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-341, 122, -1321","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776223340076,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776223340338,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"background thread exception","data":{"pathTail":"Tears (MC Disk).mp3","pathLen":44,"ex":"BitstreamException","msg":"Bitstream errorcode 102"}}
+{"sessionId":"054da2","timestamp":1776223340345,"hypothesisId":"D6","location":"ClientEvents.onClientTick","message":"tick auto play","data":{"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340346,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340348,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223340395,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340396,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223340445,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340445,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223340492,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340493,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223340544,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340545,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223340595,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340596,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223340658,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340660,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223340695,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340696,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223340745,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340746,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223340797,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340798,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223340847,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340848,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223340894,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340895,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223340945,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340945,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223340995,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223340995,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223341045,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223341046,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223341096,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223341097,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223341144,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223341145,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223341195,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223341196,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223341244,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223341245,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223341292,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223341293,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223341343,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223341343,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223341392,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223341393,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223341444,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223341445,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223341496,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223341498,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223341545,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223341545,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223341595,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776223341595,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223341656,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":true,"hasSelectedFile":false}}
+{"sessionId":"054da2","timestamp":1776223341658,"hypothesisId":"D8","location":"StopPlaybackPacket.handle","message":"received stop packet","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776223341659,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776223353761,"hypothesisId":"D8","location":"ClientEvents.onClientLogout","message":"logout event","data":{}}
+{"sessionId":"054da2","timestamp":1776223353762,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776223355981,"hypothesisId":"D8","location":"ClientEvents.onClientTick","message":"world unload detected","data":{}}
+{"sessionId":"054da2","timestamp":1776223355982,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776225660240,"hypothesisId":"D8","location":"ClientEvents.onClientLogout","message":"logout event","data":{}}
+{"sessionId":"054da2","timestamp":1776225660252,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776225676639,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":true}}
+{"sessionId":"054da2","timestamp":1776225676640,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225676640,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-341, 122, -1321","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776225676647,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776225676662,"hypothesisId":"D8","location":"MP3MusicManager.tick","message":"tick stop condition","data":{"pos":"-341, 122, -1321","isJukebox":true,"hasRecordFlag":false,"beHasRecord":false,"clientStored":false}}
+{"sessionId":"054da2","timestamp":1776225676662,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-341, 122, -1321","hadPlayer":true}}
+{"sessionId":"054da2","timestamp":1776225676683,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":false}}
+{"sessionId":"054da2","timestamp":1776225676693,"hypothesisId":"D5","location":"CustomMusicDiscItem.useOn","message":"server after jukebox insert","data":{"hasSelectedFile":true,"stackEmpty":false,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225676702,"hypothesisId":"D9","location":"ClientEvents.onPlaySound","message":"dummy sound intercepted","data":{"x":-340.5,"y":122.5,"z":-1320.5}}
+{"sessionId":"054da2","timestamp":1776225676740,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":false,"hasSelectedFile":true,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225676740,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225676742,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-341, 122, -1321","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776225676750,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776225677020,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"background thread exception","data":{"pathTail":"Tears (MC Disk).mp3","pathLen":44,"ex":"BitstreamException","msg":"Bitstream errorcode 102"}}
+{"sessionId":"054da2","timestamp":1776225677038,"hypothesisId":"D6","location":"ClientEvents.onClientTick","message":"tick auto play","data":{"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677039,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677039,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677087,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677087,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677135,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677135,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677188,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677189,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677237,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677238,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677286,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677287,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677337,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677338,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677387,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677388,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677435,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677435,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677485,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677486,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677535,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677536,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677587,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677588,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677619,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677620,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677686,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677688,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677727,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677727,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677787,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677788,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677836,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677837,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677887,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677888,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677922,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677923,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225677972,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225677973,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678020,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678020,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678072,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678072,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678125,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678126,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678176,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678177,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678240,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678242,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678285,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678287,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678325,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678326,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678388,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678389,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678436,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678437,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678489,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678492,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678537,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678538,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678588,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678589,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678639,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678640,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678680,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678682,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678747,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678748,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678780,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678781,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678823,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678824,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678884,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678885,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678927,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678928,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225678992,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225678993,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679026,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679027,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679094,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679095,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679135,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679136,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679174,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679175,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679272,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679272,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679279,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679280,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679347,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679348,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679383,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679384,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679460,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679462,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679512,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679513,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679580,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679582,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679588,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679589,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679648,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679649,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679695,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679696,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679721,"hypothesisId":"P4","location":"CustomPaintingRenderer.render","message":"skip !HAS_PAINTING","data":{}}
+{"sessionId":"054da2","timestamp":1776225679742,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679743,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679779,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679780,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679848,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679848,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679907,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679908,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225679953,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225679953,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680012,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680013,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680070,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680072,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680112,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680113,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680160,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680162,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680206,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680208,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680250,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680252,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680300,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680301,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680349,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680350,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680393,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680394,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680436,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680438,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680478,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680478,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680536,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680537,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680588,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680589,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680634,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680635,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680688,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680689,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680721,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680722,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680772,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680774,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680842,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680842,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680882,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680882,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225680954,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225680955,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681004,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681005,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681040,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681042,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681080,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681082,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681120,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681122,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681188,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681189,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681226,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681226,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681292,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681292,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681334,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681335,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681383,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681383,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681435,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681435,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681484,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681484,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681535,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681536,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681586,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681586,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681633,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681633,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681684,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681685,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681736,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681737,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681787,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681788,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681834,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681834,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681886,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681886,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681932,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681933,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225681987,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225681988,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225682034,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-341, 122, -1321","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776225682034,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-341, 122, -1321","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776225682037,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776225693983,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":true,"hasSelectedFile":false}}
+{"sessionId":"054da2","timestamp":1776225693985,"hypothesisId":"D8","location":"StopPlaybackPacket.handle","message":"received stop packet","data":{"pos":"-341, 122, -1321"}}
+{"sessionId":"054da2","timestamp":1776225693987,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":1}}
+{"sessionId":"054da2","timestamp":1776226078135,"hypothesisId":"D8","location":"ClientEvents.onClientLogout","message":"logout event","data":{}}
+{"sessionId":"054da2","timestamp":1776226078140,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776226090325,"hypothesisId":"P4","location":"CustomPaintingRenderer.render","message":"skip !HAS_PAINTING","data":{}}
+{"sessionId":"054da2","timestamp":1776226095825,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":true}}
+{"sessionId":"054da2","timestamp":1776226095827,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226095828,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-358, 123, -1324","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776226095835,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776226095842,"hypothesisId":"D8","location":"MP3MusicManager.tick","message":"tick stop condition","data":{"pos":"-358, 123, -1324","isJukebox":true,"hasRecordFlag":false,"beHasRecord":false,"clientStored":false}}
+{"sessionId":"054da2","timestamp":1776226095844,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-358, 123, -1324","hadPlayer":true}}
+{"sessionId":"054da2","timestamp":1776226095870,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":false}}
+{"sessionId":"054da2","timestamp":1776226095876,"hypothesisId":"D5","location":"CustomMusicDiscItem.useOn","message":"server after jukebox insert","data":{"hasSelectedFile":true,"stackEmpty":false,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226095922,"hypothesisId":"D9","location":"ClientEvents.onPlaySound","message":"dummy sound intercepted","data":{"x":-357.5,"y":123.5,"z":-1323.5}}
+{"sessionId":"054da2","timestamp":1776226095924,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":false,"hasSelectedFile":true,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226095926,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226095927,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-358, 123, -1324","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776226095931,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776226096784,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"background thread exception","data":{"pathTail":"Tears (MC Disk).mp3","pathLen":44,"ex":"BitstreamException","msg":"Bitstream errorcode 102"}}
+{"sessionId":"054da2","timestamp":1776226096801,"hypothesisId":"D6","location":"ClientEvents.onClientTick","message":"tick auto play","data":{"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226096803,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226096804,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226096850,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226096850,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226096901,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226096901,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226096950,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226096951,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097001,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097001,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097051,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097053,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097101,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097102,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097150,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097150,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097200,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097200,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097252,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097254,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097302,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097303,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097351,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097352,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097417,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097418,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097455,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097455,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097498,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097499,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097578,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097579,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097610,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097612,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097640,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097640,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097694,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097695,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097749,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097750,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097816,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097816,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097847,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097848,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097907,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097908,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097968,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097969,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226097998,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226097999,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098054,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098054,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098104,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098105,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098153,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098155,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098202,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098203,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098252,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098253,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098299,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098300,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098348,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098349,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098400,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098402,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098454,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098455,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098506,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098507,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098553,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098554,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098590,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098592,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098655,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098657,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098709,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098710,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098753,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098753,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098800,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098801,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098852,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098853,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098900,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098900,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226098952,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226098953,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099002,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099013,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099054,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099055,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099090,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099090,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099139,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099140,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099202,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099202,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099257,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099258,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099304,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099305,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099349,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099350,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099405,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099405,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099452,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099453,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099500,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099502,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099552,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099553,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099601,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099601,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099653,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099653,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099707,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099708,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099750,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099750,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099801,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099801,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099841,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099842,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099903,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099904,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226099953,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226099954,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100008,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100009,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100051,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100052,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100099,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100099,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100152,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100153,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100202,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100203,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100248,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100249,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100302,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100303,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100351,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100351,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100400,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100400,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100450,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100450,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100500,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100501,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100551,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100552,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100599,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100600,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100651,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100652,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100702,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100703,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100752,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100753,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100803,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100805,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100850,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100850,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100892,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100893,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226100951,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226100952,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101002,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101004,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101050,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101050,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101099,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101100,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101149,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101150,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101199,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101200,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101249,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101250,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101299,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101299,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101349,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101349,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101402,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101403,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101451,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101452,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101505,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101506,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101555,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101556,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101604,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101605,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101650,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101650,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101704,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101705,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101753,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101754,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226101803,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-358, 123, -1324","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776226101804,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-358, 123, -1324","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776226101805,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776226123373,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":true,"hasSelectedFile":false}}
+{"sessionId":"054da2","timestamp":1776226123376,"hypothesisId":"D8","location":"StopPlaybackPacket.handle","message":"received stop packet","data":{"pos":"-358, 123, -1324"}}
+{"sessionId":"054da2","timestamp":1776226123378,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":1}}
+{"sessionId":"054da2","timestamp":1776226130882,"hypothesisId":"P4","location":"CustomPaintingRenderer.render","message":"skip !HAS_PAINTING","data":{}}
+{"sessionId":"054da2","timestamp":1776226737888,"hypothesisId":"D8","location":"ClientEvents.onClientLogout","message":"logout event","data":{}}
+{"sessionId":"054da2","timestamp":1776226737890,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776232852475,"hypothesisId":"D8","location":"ClientEvents.onClientLogout","message":"logout event","data":{}}
+{"sessionId":"054da2","timestamp":1776232852485,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776232864162,"hypothesisId":"P4","location":"CustomPaintingRenderer.render","message":"skip !HAS_PAINTING","data":{}}
+{"sessionId":"054da2","timestamp":1776232864633,"hypothesisId":"P4","location":"CustomPaintingRenderer.render","message":"skip !HAS_PAINTING","data":{}}
+{"sessionId":"054da2","timestamp":1776232886270,"hypothesisId":"D1","location":"SelectedFilePacket.handle","message":"server file pick result","data":{"pathTail":"Tears (MC Disk).mp3","pathLen":44,"playerNull":false,"mainHandDisc":true,"effectiveOffHandDisc":true,"nbtApplied":true}}
+{"sessionId":"054da2","timestamp":1776232891631,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":true}}
+{"sessionId":"054da2","timestamp":1776232891632,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232891633,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-377, 144, -1385","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776232891636,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":false}}
+{"sessionId":"054da2","timestamp":1776232891637,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776232891638,"hypothesisId":"D5","location":"CustomMusicDiscItem.useOn","message":"server after jukebox insert","data":{"hasSelectedFile":true,"stackEmpty":false,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232891638,"hypothesisId":"D8","location":"MP3MusicManager.tick","message":"tick stop condition","data":{"pos":"-377, 144, -1385","isJukebox":true,"hasRecordFlag":false,"beHasRecord":false,"clientStored":false}}
+{"sessionId":"054da2","timestamp":1776232891639,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-377, 144, -1385","hadPlayer":true}}
+{"sessionId":"054da2","timestamp":1776232891651,"hypothesisId":"D9","location":"ClientEvents.onPlaySound","message":"dummy sound intercepted","data":{"x":-376.5,"y":144.5,"z":-1384.5}}
+{"sessionId":"054da2","timestamp":1776232891652,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":false,"hasSelectedFile":true,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232891653,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232891654,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-377, 144, -1385","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776232891655,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"skipped id3","data":{"bytes":40}}
+{"sessionId":"054da2","timestamp":1776232891907,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"background thread exception","data":{"pathTail":"Tears (MC Disk).mp3","pathLen":44,"ex":"BitstreamException","msg":"Bitstream errorcode 102"}}
+{"sessionId":"054da2","timestamp":1776232891933,"hypothesisId":"D6","location":"ClientEvents.onClientTick","message":"tick auto play","data":{"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232891934,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232891934,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232891984,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232891985,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892035,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892035,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892085,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892086,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892134,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892135,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892184,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892184,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892238,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892239,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892283,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892283,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892340,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892341,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892383,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892385,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892436,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892437,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892473,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892474,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892531,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892532,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892583,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892584,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892637,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892638,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892685,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892686,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892738,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892739,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892783,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892784,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892834,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892835,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892883,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892883,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892933,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892934,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232892985,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232892985,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893034,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893034,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893082,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893083,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893134,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893134,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893183,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893184,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893232,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893233,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893281,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893282,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893333,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893333,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893385,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893386,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893432,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893433,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893485,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893486,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893532,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893533,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893583,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893584,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893638,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893638,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893682,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893683,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893732,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893733,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893786,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893787,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893833,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893833,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893885,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893886,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893934,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893935,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232893984,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232893985,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232894032,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232894032,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232894082,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232894083,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232894133,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232894133,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232894183,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232894184,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232894233,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232894234,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232894287,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232894288,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232894333,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232894334,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232894381,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232894382,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232894434,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232894435,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232894484,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232894485,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232894533,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232894534,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232894589,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232894590,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232894633,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 144, -1385","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776232894633,"hypothesisId":"D7","location":"MP3MusicManager.play","message":"throttled after failure","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232894645,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":true,"hasSelectedFile":false}}
+{"sessionId":"054da2","timestamp":1776232894645,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-377, 144, -1385","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776232894648,"hypothesisId":"D8","location":"StopPlaybackPacket.handle","message":"received stop packet","data":{"pos":"-377, 144, -1385"}}
+{"sessionId":"054da2","timestamp":1776232894649,"hypothesisId":"D8","location":"MP3MusicManager.stop","message":"stop called","data":{"pos":"-377, 144, -1385","hadPlayer":false}}
+{"sessionId":"054da2","timestamp":1776232907873,"hypothesisId":"D8","location":"ClientEvents.onClientLogout","message":"logout event","data":{}}
+{"sessionId":"054da2","timestamp":1776232907874,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776232909247,"hypothesisId":"D8","location":"ClientEvents.onClientTick","message":"level change or world unload detected","data":{}}
+{"sessionId":"054da2","timestamp":1776232909248,"hypothesisId":"D8","location":"MP3MusicManager.stopAll","message":"stopAll called","data":{"count":0}}
+{"sessionId":"054da2","timestamp":1776234475843,"hypothesisId":"D8","location":"ClientEvents.onClientLogout","message":"logout event","data":{}}
+{"sessionId":"054da2","timestamp":1776234492264,"hypothesisId":"P4","location":"CustomPaintingRenderer.render","message":"skip !HAS_PAINTING","data":{}}
+{"sessionId":"054da2","timestamp":1776234492312,"hypothesisId":"P4","location":"CustomPaintingRenderer.render","message":"skip !HAS_PAINTING","data":{}}
+{"sessionId":"054da2","timestamp":1776234495425,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":true}}
+{"sessionId":"054da2","timestamp":1776234495427,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 145, -1384","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776234495442,"hypothesisId":"D8","location":"MP3MusicManager.tick","message":"tick stop condition","data":{"pos":"-377, 145, -1384","isJukebox":true,"hasRecordFlag":false,"beHasRecord":false,"clientStored":false}}
+{"sessionId":"054da2","timestamp":1776234495474,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":false}}
+{"sessionId":"054da2","timestamp":1776234495478,"hypothesisId":"D8","location":"MP3MusicManager.tick","message":"tick stop condition","data":{"pos":"-377, 145, -1384","isJukebox":true,"hasRecordFlag":false,"beHasRecord":false,"clientStored":false}}
+{"sessionId":"054da2","timestamp":1776234495479,"hypothesisId":"D5","location":"CustomMusicDiscItem.useOn","message":"server after jukebox insert","data":{"hasSelectedFile":true,"stackEmpty":false,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776234495490,"hypothesisId":"D9","location":"ClientEvents.onPlaySound","message":"dummy sound intercepted","data":{"x":-376.5,"y":145.5,"z":-1383.5}}
+{"sessionId":"054da2","timestamp":1776234495505,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":false,"hasSelectedFile":true,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776234495507,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 145, -1384","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776234498738,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":true,"hasSelectedFile":false}}
+{"sessionId":"054da2","timestamp":1776234498869,"hypothesisId":"D8","location":"StopPlaybackPacket.handle","message":"received stop packet","data":{"pos":"-377, 145, -1384"}}
+{"sessionId":"054da2","timestamp":1776234500520,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":true}}
+{"sessionId":"054da2","timestamp":1776234500521,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 145, -1384","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776234500523,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":false}}
+{"sessionId":"054da2","timestamp":1776234500530,"hypothesisId":"D5","location":"CustomMusicDiscItem.useOn","message":"server after jukebox insert","data":{"hasSelectedFile":true,"stackEmpty":false,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776234500532,"hypothesisId":"D8","location":"MP3MusicManager.tick","message":"tick stop condition","data":{"pos":"-377, 145, -1384","isJukebox":true,"hasRecordFlag":false,"beHasRecord":false,"clientStored":false}}
+{"sessionId":"054da2","timestamp":1776234500811,"hypothesisId":"D9","location":"ClientEvents.onPlaySound","message":"dummy sound intercepted","data":{"x":-376.5,"y":145.5,"z":-1383.5}}
+{"sessionId":"054da2","timestamp":1776234500812,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":false,"hasSelectedFile":true,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776234500812,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 145, -1384","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776234502793,"hypothesisId":"D8","location":"MP3MusicManager.tick","message":"tick stop condition","data":{"pos":"-377, 145, -1384","isJukebox":false,"hasRecordFlag":false,"beHasRecord":false,"clientStored":true}}
+{"sessionId":"054da2","timestamp":1776234502931,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":true,"hasSelectedFile":false}}
+{"sessionId":"054da2","timestamp":1776234502931,"hypothesisId":"D8","location":"StopPlaybackPacket.handle","message":"received stop packet","data":{"pos":"-377, 145, -1384"}}
+{"sessionId":"054da2","timestamp":1776234508820,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":true}}
+{"sessionId":"054da2","timestamp":1776234508820,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 145, -1384","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776234508821,"hypothesisId":"D4","location":"CustomMusicDiscItem.useOn","message":"enter","data":{"isJukebox":true,"hasRecord":false,"client":false}}
+{"sessionId":"054da2","timestamp":1776234508822,"hypothesisId":"D5","location":"CustomMusicDiscItem.useOn","message":"server after jukebox insert","data":{"hasSelectedFile":true,"stackEmpty":false,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776234508825,"hypothesisId":"D8","location":"MP3MusicManager.tick","message":"tick stop condition","data":{"pos":"-377, 145, -1384","isJukebox":true,"hasRecordFlag":false,"beHasRecord":false,"clientStored":false}}
+{"sessionId":"054da2","timestamp":1776234508889,"hypothesisId":"D9","location":"ClientEvents.onPlaySound","message":"dummy sound intercepted","data":{"x":-376.5,"y":145.5,"z":-1383.5}}
+{"sessionId":"054da2","timestamp":1776234508890,"hypothesisId":"D2","location":"DiscInfoResponsePacket.handle","message":"client disc packet","data":{"stackEmpty":false,"hasSelectedFile":true,"pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776234508890,"hypothesisId":"D3","location":"MP3MusicManager.play","message":"enter play","data":{"pos":"-377, 145, -1384","pathTail":"Tears (MC Disk).mp3","pathLen":44}}
+{"sessionId":"054da2","timestamp":1776234510046,"hypothesisId":"D8","location":"ClientEvents.onClientLogout","message":"logout event","data":{}}
+{"sessionId":"054da2","timestamp":1776234511214,"hypothesisId":"D8","location":"ClientEvents.onClientTick","message":"level change or world unload detected","data":{}}
+{"sessionId":"054da2","timestamp":1776234513069,"hypothesisId":"D8","location":"ClientEvents.onClientLogout","message":"logout event","data":{}}
