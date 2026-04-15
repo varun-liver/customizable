@@ -41,11 +41,29 @@ public class CustomPaintingRenderer implements BlockEntityRenderer<CustomPaintin
     public void render(CustomPaintingBlockEntity be, float partialTicks, PoseStack poseStack, MultiBufferSource bufferSource, int combinedLight, int combinedOverlay) {
         BlockState state = be.getBlockState();
         if (!state.hasProperty(CustomPaintingBlock.HAS_PAINTING) || !state.getValue(CustomPaintingBlock.HAS_PAINTING)) {
+            // #region agent log
+            com.customizable.debug.DebugNdjsonLog.logOnce(
+                    "paintEarly:" + be.getBlockPos().asLong(),
+                    "P4",
+                    "CustomPaintingRenderer.render",
+                    "skip !HAS_PAINTING",
+                    "{}");
+            // #endregion
             return;
         }
 
         String path = be.getFilePath();
-        if (path == null || path.isEmpty()) return;
+        if (path == null || path.isEmpty()) {
+            // #region agent log
+            com.customizable.debug.DebugNdjsonLog.logOnce(
+                    "paintNoPath:" + be.getBlockPos().asLong(),
+                    "P4",
+                    "CustomPaintingRenderer.render",
+                    "skip empty path",
+                    "{}");
+            // #endregion
+            return;
+        }
 
         ResourceLocation tex = CACHE.get(path);
         if (tex == null) {
@@ -138,6 +156,13 @@ public class CustomPaintingRenderer implements BlockEntityRenderer<CustomPaintin
                     File file = new File(path);
                     if (!file.exists()) {
                         LOGGER.error("Custom painting file does not exist: {}", path);
+                        // #region agent log
+                        com.customizable.debug.DebugNdjsonLog.log(
+                                "P5",
+                                "CustomPaintingRenderer.loadTexture",
+                                "file missing",
+                                com.customizable.debug.DebugNdjsonLog.pathFieldsJson(path));
+                        // #endregion
                         return null;
                     }
                     // Read all bytes first for more robust stream handling
@@ -159,16 +184,50 @@ public class CustomPaintingRenderer implements BlockEntityRenderer<CustomPaintin
                             tm.register(rl, new DynamicTexture(finalImage));
                             CACHE.put(path, rl);
                             LOGGER.info("Successfully registered custom texture: {} ({}x{}) for path {}", rl, finalImage.getWidth(), finalImage.getHeight(), path);
+                            // #region agent log
+                            com.customizable.debug.DebugNdjsonLog.log(
+                                    "P5",
+                                    "CustomPaintingRenderer.loadTexture",
+                                    "texture registered",
+                                    com.customizable.debug.DebugNdjsonLog.mergeObjects(
+                                            "{\"iw\":" + finalImage.getWidth() + ",\"ih\":" + finalImage.getHeight() + "}",
+                                            com.customizable.debug.DebugNdjsonLog.pathFieldsJson(path)));
+                            // #endregion
                         } catch (Exception ex) {
                             LOGGER.error("Error registering custom texture in main thread: " + rl, ex);
+                            // #region agent log
+                            com.customizable.debug.DebugNdjsonLog.log(
+                                    "P5",
+                                    "CustomPaintingRenderer.loadTexture",
+                                    "register failed",
+                                    com.customizable.debug.DebugNdjsonLog.mergeObjects(
+                                            com.customizable.debug.DebugNdjsonLog.pathFieldsJson(path),
+                                            com.customizable.debug.DebugNdjsonLog.throwableFields(ex)));
+                            // #endregion
                         }
                     });
                     return rl;
                 } else {
                     LOGGER.error("NativeImage.read returned null for custom painting: {}", path);
+                    // #region agent log
+                    com.customizable.debug.DebugNdjsonLog.log(
+                            "P5",
+                            "CustomPaintingRenderer.loadTexture",
+                            "nativeimage null",
+                            com.customizable.debug.DebugNdjsonLog.pathFieldsJson(path));
+                    // #endregion
                 }
             } catch (Exception e) {
                 LOGGER.error("Failed to load custom painting from path: " + path, e);
+                // #region agent log
+                com.customizable.debug.DebugNdjsonLog.log(
+                        "P5",
+                        "CustomPaintingRenderer.loadTexture",
+                        "load exception",
+                        com.customizable.debug.DebugNdjsonLog.mergeObjects(
+                                com.customizable.debug.DebugNdjsonLog.pathFieldsJson(path),
+                                com.customizable.debug.DebugNdjsonLog.throwableFields(e)));
+                // #endregion
             }
             return null;
         });

@@ -18,20 +18,24 @@ import com.customizable.item.CustomMusicDiscItem;
 public class ClientEvents {
     private static int tickCounter = 0;
 
-    private static boolean hadLevel = false;
+    private static net.minecraft.world.level.Level lastLevel = null;
 
     @SubscribeEvent
     public static void onClientTick(net.minecraftforge.event.TickEvent.ClientTickEvent event) {
         if (event.phase == net.minecraftforge.event.TickEvent.Phase.END) {
             Minecraft mc = Minecraft.getInstance();
-            // Detect world unload (level became null)
-            if (hadLevel && mc.level == null) {
-
-                try { com.customizable.client.MP3MusicManager.stopAll(); } catch (Exception ignored) {}
-                try { com.customizable.client.ClientJukeboxCache.clearAll(); } catch (Exception ignored) {}
-                com.customizable.client.ClientPlaybackSuppress.clearAll();
+            // Detect level change (including logout and dimension travel)
+            if (mc.level != lastLevel) {
+                if (lastLevel != null) {
+                    // #region agent log
+                    com.customizable.debug.DebugNdjsonLog.log("D8", "ClientEvents.onClientTick", "level change or world unload detected", "{}");
+                    // #endregion
+                    try { com.customizable.client.MP3MusicManager.stopAll(); } catch (Exception ignored) {}
+                    try { com.customizable.client.ClientJukeboxCache.clearAll(); } catch (Exception ignored) {}
+                    com.customizable.client.ClientPlaybackSuppress.clearAll();
+                }
+                lastLevel = mc.level;
             }
-            hadLevel = mc.level != null;
             if (mc.level != null && mc.player != null) {
                 tickCounter++;
                 if (tickCounter % 200 == 0) {
@@ -82,12 +86,26 @@ public class ClientEvents {
                                         if (!com.customizable.client.MP3MusicManager.isPlaying(p)) {
                                             if (effectiveDisc.hasTag() && effectiveDisc.getTag().contains("SelectedFile")) {
                                                 String path = effectiveDisc.getTag().getString("SelectedFile");
-
+                                                // #region agent log
+                                                com.customizable.debug.DebugNdjsonLog.logOnce(
+                                                        "tick-play:" + p.asLong(),
+                                                        "D6",
+                                                        "ClientEvents.onClientTick",
+                                                        "tick auto play",
+                                                        com.customizable.debug.DebugNdjsonLog.pathFieldsJson(path));
+                                                // #endregion
                                                 com.customizable.client.MP3MusicManager.play(p, path);
                                             } else {
                                                 // Request server to sync NBT for this jukebox position occasionally
                                                 if (tickCounter % 40 == 0) {
-
+                                                    // #region agent log
+                                                    com.customizable.debug.DebugNdjsonLog.logOnce(
+                                                            "tick-req:" + p.asLong(),
+                                                            "D6",
+                                                            "ClientEvents.onClientTick",
+                                                            "tick request disc info",
+                                                            "{}");
+                                                    // #endregion
                                                     com.customizable.network.ModMessages.sendToServer(new com.customizable.network.RequestDiscInfoPacket(p));
                                                 }
                                             }
@@ -108,7 +126,9 @@ public class ClientEvents {
 
     @SubscribeEvent
     public static void onClientLogout(net.minecraftforge.client.event.ClientPlayerNetworkEvent.LoggingOut event) {
-
+        // #region agent log
+        com.customizable.debug.DebugNdjsonLog.log("D8", "ClientEvents.onClientLogout", "logout event", "{}");
+        // #endregion
         try { com.customizable.client.MP3MusicManager.stopAll(); } catch (Exception ignored) {}
     }
 
@@ -135,6 +155,15 @@ public class ClientEvents {
         if (sound == null) return;
 
         if (sound.getLocation().equals(customizable.DUMMY_MUSIC.getId())) {
+            // #region agent log
+            com.customizable.debug.DebugNdjsonLog.log(
+                    "D9",
+                    "ClientEvents.onPlaySound",
+                    "dummy sound intercepted",
+                    "{\"x\":" + sound.getX() + ",\"y\":" + sound.getY() + ",\"z\":" + sound.getZ() + "}");
+            // #endregion
+            // Prevent vanilla/dummy record sound from continuing independently of custom MP3 state.
+            event.setSound(null);
 
             BlockPos pos = new BlockPos((int) sound.getX(), (int) sound.getY(), (int) sound.getZ());
             Minecraft mc = Minecraft.getInstance();

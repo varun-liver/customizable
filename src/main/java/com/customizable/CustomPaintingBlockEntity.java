@@ -22,12 +22,16 @@ public class CustomPaintingBlockEntity extends BlockEntity {
         this.height = Math.max(1, height);
         setChanged();
         if (level != null) {
-            BlockState state = getBlockState();
+            BlockState oldState = getBlockState();
             boolean hasP = filePath != null && !filePath.isEmpty();
-            if (state.hasProperty(CustomPaintingBlock.HAS_PAINTING)) {
-                level.setBlock(worldPosition, state.setValue(CustomPaintingBlock.HAS_PAINTING, hasP), 3);
+            BlockState newState = oldState;
+            if (oldState.hasProperty(CustomPaintingBlock.HAS_PAINTING)) {
+                newState = oldState.setValue(CustomPaintingBlock.HAS_PAINTING, hasP);
+                if (newState != oldState) {
+                    level.setBlock(worldPosition, newState, 3);
+                }
             }
-            level.sendBlockUpdated(worldPosition, getBlockState(), getBlockState(), 3);
+            level.sendBlockUpdated(worldPosition, oldState, newState, 3);
         }
     }
 
@@ -70,6 +74,15 @@ public class CustomPaintingBlockEntity extends BlockEntity {
             load(tag);
             if (level != null && level.isClientSide) {
                 com.mojang.logging.LogUtils.getLogger().info("Received painting data on client: {} ({}x{})", filePath, width, height);
+                // #region agent log
+                com.customizable.debug.DebugNdjsonLog.log(
+                        "P3",
+                        "CustomPaintingBlockEntity.onDataPacket",
+                        "client be nbt",
+                        com.customizable.debug.DebugNdjsonLog.mergeObjects(
+                                "{\"w\":" + width + ",\"h\":" + height + "}",
+                                com.customizable.debug.DebugNdjsonLog.pathFieldsJson(this.filePath)));
+                // #endregion
             }
         }
     }

@@ -54,7 +54,7 @@ public class ServerEvents {
                 ItemEntity entity = new ItemEntity(level, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, toDrop);
                 entity.setPickUpDelay(10);
                 level.addFreshEntity(entity);
-                level.levelEvent(null, 1010, pos, 0);
+                level.levelEvent(null, 1011, pos, 0);
                 try { com.customizable.network.ModMessages.sendToAll(new com.customizable.network.DiscInfoResponsePacket(pos, net.minecraft.world.item.ItemStack.EMPTY)); com.customizable.network.ModMessages.sendToAll(new com.customizable.network.StopPlaybackPacket(pos)); } catch (Exception ignored) {}
             } else {
                 // fallback to vanilla behavior
@@ -72,6 +72,13 @@ public class ServerEvents {
         BlockPos pos = event.getPos();
         var state = level.getBlockState(pos);
         if (!state.is(Blocks.JUKEBOX)) return;
+        
+        // Always notify clients to stop playback when a jukebox is broken
+        try { 
+            com.customizable.network.ModMessages.sendToAll(new com.customizable.network.DiscInfoResponsePacket(pos, net.minecraft.world.item.ItemStack.EMPTY)); 
+            com.customizable.network.ModMessages.sendToAll(new com.customizable.network.StopPlaybackPacket(pos)); 
+        } catch (Exception ignored) {}
+
         BlockEntity be = level.getBlockEntity(pos);
         if (!(be instanceof JukeboxBlockEntity jukebox)) return;
 
@@ -92,9 +99,22 @@ public class ServerEvents {
                 ItemEntity entity = new ItemEntity(level, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, toDrop);
                 entity.setPickUpDelay(10);
                 level.addFreshEntity(entity);
-                try { com.customizable.network.ModMessages.sendToAll(new com.customizable.network.DiscInfoResponsePacket(pos, net.minecraft.world.item.ItemStack.EMPTY)); com.customizable.network.ModMessages.sendToAll(new com.customizable.network.StopPlaybackPacket(pos)); } catch (Exception ignored) {}
             }
         } catch (Exception e) {
+        }
+    }
+
+    @SubscribeEvent
+    public static void onExplosion(net.minecraftforge.event.level.ExplosionEvent.Detonate event) {
+        Level level = event.getLevel();
+        if (level.isClientSide()) return;
+        for (BlockPos pos : event.getAffectedBlocks()) {
+            if (level.getBlockState(pos).is(Blocks.JUKEBOX)) {
+                try {
+                    com.customizable.network.ModMessages.sendToAll(new com.customizable.network.DiscInfoResponsePacket(pos, net.minecraft.world.item.ItemStack.EMPTY));
+                    com.customizable.network.ModMessages.sendToAll(new com.customizable.network.StopPlaybackPacket(pos));
+                } catch (Exception ignored) {}
+            }
         }
     }
 }

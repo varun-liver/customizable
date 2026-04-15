@@ -14,6 +14,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.item.Item;
 import com.customizable.customizable;
 import com.customizable.network.ModMessages;
 import com.customizable.network.SelectedFilePacket;
@@ -28,6 +29,13 @@ public class CustomMusicDiscItem extends RecordItem {
         Level level = context.getLevel();
         BlockPos pos = context.getClickedPos();
         BlockState state = level.getBlockState(pos);
+        // #region agent log
+        com.customizable.debug.DebugNdjsonLog.log(
+                "D4",
+                "CustomMusicDiscItem.useOn",
+                "enter",
+                "{\"isJukebox\":" + state.is(Blocks.JUKEBOX) + ",\"hasRecord\":" + (state.is(Blocks.JUKEBOX) && state.getValue(JukeboxBlock.HAS_RECORD)) + ",\"client\":" + level.isClientSide + "}");
+        // #endregion
         
         if (state.is(Blocks.JUKEBOX) && !state.getValue(JukeboxBlock.HAS_RECORD)) {
             ItemStack stack = context.getItemInHand();
@@ -49,13 +57,33 @@ public class CustomMusicDiscItem extends RecordItem {
                     var newState = state.setValue(JukeboxBlock.HAS_RECORD, true);
                     level.setBlock(pos, newState, 3);
                     level.sendBlockUpdated(pos, state, newState, 3);
-                    level.levelEvent(null, 1010, pos, 0);
+                    level.levelEvent(null, 1010, pos, Item.getId(moved.getItem()));
                     // Broadcast the jukebox item to clients so they immediately get the NBT and can start playback
                     try {
+                        // #region agent log
+                        boolean hasSf = !moved.isEmpty() && moved.hasTag() && moved.getTag().contains("SelectedFile");
+                        com.customizable.debug.DebugNdjsonLog.log(
+                                "D5",
+                                "CustomMusicDiscItem.useOn",
+                                "server after jukebox insert",
+                                com.customizable.debug.DebugNdjsonLog.mergeObjects(
+                                        "{\"hasSelectedFile\":" + hasSf + ",\"stackEmpty\":" + moved.isEmpty() + "}",
+                                        hasSf ? com.customizable.debug.DebugNdjsonLog.pathFieldsJson(moved.getTag().getString("SelectedFile")) : "{}"));
+                        // #endregion
                         com.customizable.network.ModMessages.sendToAll(new com.customizable.network.DiscInfoResponsePacket(pos, moved));
                     } catch (Exception e) {
-
+                        // #region agent log
+                        com.customizable.debug.DebugNdjsonLog.log(
+                                "D5",
+                                "CustomMusicDiscItem.useOn",
+                                "sendToAll failed",
+                                com.customizable.debug.DebugNdjsonLog.throwableFields(e));
+                        // #endregion
                     }
+                } else {
+                    // #region agent log
+                    com.customizable.debug.DebugNdjsonLog.log("D4", "CustomMusicDiscItem.useOn", "no jukebox block entity", "{}");
+                    // #endregion
                 }
             } else {
                 if (stack.hasTag() && stack.getTag().contains("SelectedFile")) {
@@ -66,6 +94,9 @@ public class CustomMusicDiscItem extends RecordItem {
             }
             return InteractionResult.sidedSuccess(level.isClientSide);
         }
+        // #region agent log
+        com.customizable.debug.DebugNdjsonLog.log("D4", "CustomMusicDiscItem.useOn", "pass", "{}");
+        // #endregion
         return InteractionResult.PASS;
     }
 

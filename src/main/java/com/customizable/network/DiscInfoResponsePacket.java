@@ -30,6 +30,16 @@ public class DiscInfoResponsePacket {
         ctx.enqueueWork(() -> {
             // Client-side: cache and update client jukebox block entity
             com.customizable.client.ClientJukeboxCache.store(pos, stack);
+            // #region agent log
+            boolean hasSf = !stack.isEmpty() && stack.hasTag() && stack.getTag().contains("SelectedFile");
+            com.customizable.debug.DebugNdjsonLog.log(
+                    "D2",
+                    "DiscInfoResponsePacket.handle",
+                    "client disc packet",
+                    com.customizable.debug.DebugNdjsonLog.mergeObjects(
+                            "{\"stackEmpty\":" + stack.isEmpty() + ",\"hasSelectedFile\":" + hasSf + "}",
+                            hasSf ? com.customizable.debug.DebugNdjsonLog.pathFieldsJson(stack.getTag().getString("SelectedFile")) : "{}"));
+            // #endregion
             try {
                 net.minecraft.client.Minecraft mc = net.minecraft.client.Minecraft.getInstance();
                 if (mc.level != null) {
@@ -49,8 +59,9 @@ public class DiscInfoResponsePacket {
                         // already playing, ignore
                     }
                 } else {
-                    // empty or no SelectedFile -> clear client cache and set suppression for a short while to avoid immediate restart
+                    // empty or no SelectedFile -> stop playback and clear client cache
                     try {
+                        com.customizable.client.MP3MusicManager.stop(pos);
                         com.customizable.client.ClientJukeboxCache.remove(pos);
                         com.customizable.client.ClientPlaybackSuppress.suppress(pos, 2000);
                     } catch (Exception ignored) {}

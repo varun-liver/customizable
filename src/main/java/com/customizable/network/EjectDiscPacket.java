@@ -60,7 +60,7 @@ public class EjectDiscPacket {
                         net.minecraft.world.entity.item.ItemEntity entity = new net.minecraft.world.entity.item.ItemEntity(level, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, toDrop);
                         entity.setPickUpDelay(10);
                         boolean added = level.addFreshEntity(entity);
-                        level.levelEvent(null, 1010, pos, 0);
+                        level.levelEvent(null, 1011, pos, 0);
 
                         try { com.customizable.network.ModMessages.sendToAll(new com.customizable.network.DiscInfoResponsePacket(pos, net.minecraft.world.item.ItemStack.EMPTY)); com.customizable.network.ModMessages.sendToAll(new com.customizable.network.StopPlaybackPacket(pos)); } catch (Exception ignored) {}
                     } else {
@@ -75,7 +75,7 @@ public class EjectDiscPacket {
                             net.minecraft.world.entity.item.ItemEntity entity = new net.minecraft.world.entity.item.ItemEntity(level, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, toDrop);
                             entity.setPickUpDelay(10);
                             boolean added = level.addFreshEntity(entity);
-                            level.levelEvent(null, 1010, pos, 0);
+                            level.levelEvent(null, 1011, pos, 0);
 
                             try { com.customizable.network.ModMessages.sendToAll(new com.customizable.network.DiscInfoResponsePacket(pos, net.minecraft.world.item.ItemStack.EMPTY)); com.customizable.network.ModMessages.sendToAll(new com.customizable.network.StopPlaybackPacket(pos)); } catch (Exception ignored) {}
                         } else if (hasRecord) {
@@ -85,7 +85,7 @@ public class EjectDiscPacket {
                             var newState = state.setValue(net.minecraft.world.level.block.JukeboxBlock.HAS_RECORD, false);
                             level.setBlock(pos, newState, 3);
                             level.sendBlockUpdated(pos, state, newState, 3);
-                            level.levelEvent(null, 1010, pos, 0);
+                            level.levelEvent(null, 1011, pos, 0);
 
                         } else {
 

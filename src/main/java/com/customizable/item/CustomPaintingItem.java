@@ -54,6 +54,16 @@ public class CustomPaintingItem extends Item {
                     w = stack.getTag().contains("PaintingWidth") ? stack.getTag().getInt("PaintingWidth") : 1;
                     h = stack.getTag().contains("PaintingHeight") ? stack.getTag().getInt("PaintingHeight") : 1;
                 }
+                // #region agent log
+                com.customizable.debug.DebugNdjsonLog.log(
+                        "P2",
+                        "CustomPaintingItem.useOn",
+                        "server place painting",
+                        com.customizable.debug.DebugNdjsonLog.mergeObjects(
+                                "{\"hasPaintingKey\":" + (stack.hasTag() && stack.getTag().contains("SelectedPaintingFile"))
+                                        + ",\"w\":" + w + ",\"h\":" + h + "}",
+                                com.customizable.debug.DebugNdjsonLog.pathFieldsJson(path)));
+                // #endregion
                 cpbe.setData(path, w, h);
                 // consume one
                 stack.shrink(1);

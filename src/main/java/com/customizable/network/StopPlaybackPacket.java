@@ -25,13 +25,20 @@ public class StopPlaybackPacket {
         NetworkEvent.Context ctx = supplier.get();
         ctx.enqueueWork(() -> {
             try {
-                // Client-side only: stop playback at this position — use stopAll as a stronger guarantee
+                // #region agent log
+                com.customizable.debug.DebugNdjsonLog.log(
+                        "D8",
+                        "StopPlaybackPacket.handle",
+                        "received stop packet",
+                        "{\"pos\":\"" + this.pos.toShortString() + "\"}");
+                // #endregion
+                // Client-side only: stop playback at this position
                 if (net.minecraft.client.Minecraft.getInstance().level != null) {
-                    com.customizable.client.MP3MusicManager.stopAll();
+                    com.customizable.client.MP3MusicManager.stop(this.pos);
                 }
-                // also clear caches and suppression
-                try { com.customizable.client.ClientJukeboxCache.clearAll(); } catch (Exception ignored) {}
-                try { com.customizable.client.ClientPlaybackSuppress.clearAll(); } catch (Exception ignored) {}
+                // also clear caches and suppression for this specific position
+                try { com.customizable.client.ClientJukeboxCache.remove(this.pos); } catch (Exception ignored) {}
+                try { com.customizable.client.ClientPlaybackSuppress.clear(this.pos); } catch (Exception ignored) {}
             } catch (Exception e) { }
         });
         return true;

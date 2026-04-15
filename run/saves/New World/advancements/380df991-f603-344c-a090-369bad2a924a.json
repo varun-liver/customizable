@@ -107,8 +107,13 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2026-04-14 21:13:22 -0700",
+      "minecraft:ravager": "2026-04-14 21:14:45 -0700",
       "minecraft:ghast": "2026-04-11 23:34:29 -0700",
-      "minecraft:spider": "2026-04-13 22:46:34 -0700"
+      "minecraft:vindicator": "2026-04-14 21:14:01 -0700",
+      "minecraft:spider": "2026-04-13 22:46:34 -0700",
+      "minecraft:witch": "2026-04-14 21:14:46 -0700",
+      "minecraft:zombie": "2026-04-14 17:14:37 -0700"
     },
     "done": false
   },
@@ -613,6 +618,72 @@
   "minecraft:recipes/building_blocks/dye_brown_wool": {
     "criteria": {
       "has_needed_dye": "2026-04-14 15:35:10 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2026-04-14 17:30:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2026-04-14 17:30:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2026-04-14 17:30:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2026-04-14 17:30:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2026-04-14 17:30:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2026-04-14 17:30:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2026-04-14 17:30:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2026-04-14 17:31:13 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2026-04-14 21:14:01 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2026-04-14 21:14:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2026-04-14 21:16:35 -0700"
     },
     "done": true
   },
